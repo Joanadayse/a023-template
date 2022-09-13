@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 15vh;
+    background-color: yellow;
+}
+main{
+    min-height: 70vh;
+    background: lightyellow;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap; /*para quebrar linha*/
+}
+
+footer{
+    height: 15vh;
+    background-color: yellow;
+
+}
+
+figure{
+    width: 120px;
+    /* height: 160px; */
+    margin: 20px 70px;
+    text-align: center;
+}
+
+img{
+    width: 160px;
+    height: 160px; 
+}
+
+/*Para cada car temos que ter uma divisão. */
+/* justify-content :space-arout espaço entre as figuras */
